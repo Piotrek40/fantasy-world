@@ -1,0 +1,106 @@
+.App {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  padding: 2em;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  margin: 1em 0;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.btn {
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  background-color: #646cff;
+  color: white;
+  margin: 0.5em;
+}
+
+.btn:hover {
+  border-color: #535bf2;
+}
+
+.btn-secondary {
+  background-color: #444;
+}
+
+.btn-danger {
+  background-color: #ff4444;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+table th,
+table td {
+  padding: 0.75em;
+  text-align: left;
+  border-bottom: 1px solid #444;
+}
+
+table th {
+  background-color: #2a2a2a;
+  font-weight: 600;
+}
+
+table tr:hover {
+  background-color: #2a2a2a;
+}
+
+.loading {
+  text-align: center;
+  padding: 2em;
+}
+
+.error {
+  color: #ff4444;
+  padding: 1em;
+  border: 1px solid #ff4444;
+  border-radius: 4px;
+  margin: 1em 0;
+}
